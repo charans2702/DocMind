@@ -68,9 +68,10 @@ uvicorn app.main:app --reload
 
 ### Frontend Setup
 
-1. Navigate to the frontend directory:
+1. Clone and Navigate to the frontend directory:
 ```bash
-cd frontend
+git clone https://github.com/charans2702/docmind-ui.git
+cd docmind-ui
 ```
 
 2. Install dependencies:
