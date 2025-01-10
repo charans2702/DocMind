@@ -54,8 +54,8 @@ VITE_API_URL=http://localhost:8000/api/v1
 
 1. Clone the repository:
 ```bash
-git clone https://github.com/yourusername/docmind.git
-cd docmind
+git clone https://github.com/charans2702/DocMind.git
+cd DocMind
 ```
 
 2. Create and activate virtual environment:
@@ -69,16 +69,7 @@ source venv/bin/activate  # On Windows: venv\Scripts\activate
 pip install -r requirements.txt
 ```
 
-4. Set up the database:
-```bash
-# Create database in PostgreSQL
-createdb docmind
-
-# Run migrations
-alembic upgrade head
-```
-
-5. Start the backend server:
+4. Start the backend server:
 ```bash
 uvicorn app.main:app --reload
 ```
@@ -137,19 +128,9 @@ app/
 │   ├── auth_service.py
 │   ├── chat_manager.py
 │   └── document_processor.py
-└── main.py
+main.py
 ```
 
-### Frontend
-```
-src/
-├── components/
-├── contexts/
-├── hooks/
-├── pages/
-├── services/
-└── App.tsx
-```
 
 ## Security Features
 
