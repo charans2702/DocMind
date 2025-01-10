@@ -1,0 +1,58 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Virtual Environment
+venv/
+ENV/
+.env
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+.DS_Store
+
+# Project specific
+test_repo/
+data/
+*.db
+*.sqlite3
+
+# React / Node
+my-react-app/node_modules/
+my-react-app/.pnp
+my-react-app/.pnp.js
+my-react-app/coverage/
+my-react-app/build/
+my-react-app/.DS_Store
+my-react-app/.env.local
+my-react-app/.env.development.local
+my-react-app/.env.test.local
+my-react-app/.env.production.local
+my-react-app/npm-debug.log*
+my-react-app/yarn-debug.log*
+my-react-app/yarn-error.log*
+
+# Chrome DB
+.chroma_db/
