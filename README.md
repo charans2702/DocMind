@@ -21,17 +21,9 @@ DocMind is an intelligent document assistant that helps users understand and ana
 - ChromaDB (Vector store)
 - JWT (Authentication)
 
-### Frontend
-- React
-- Tailwind CSS
-- Shadcn/ui components
-- Axios (API client)
-
 ## Prerequisites
 
 - Python 3.8+
-- Node.js 16+
-- PostgreSQL
 - Google API key (for Gemini model)
 
 ## Environment Variables
