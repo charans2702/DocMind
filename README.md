@@ -2,8 +2,7 @@
 
 DocMind is an intelligent document assistant that helps users understand and analyze their documents effectively. The application uses advanced AI capabilities to process various document formats and enables interactive conversations about their content.
 
-[Watch the video](videos/docmind1.mp4)
-
+![Demo](./gifs/docmind.gif)
 ## Features
 
 - 📄 Support for multiple document formats (PDF, DOCX, PPTX, TXT)
